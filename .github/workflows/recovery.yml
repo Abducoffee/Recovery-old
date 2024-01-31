@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: git@github.com:minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
-  DEVICE: r9q
-  DT_LINK: https://github.com/klabit87/android_device_samsung_r9q
-  DT_PATH: device/samsung/r9q
+  MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb.git -b android-6.0
+  DEVICE: S11
+  DT_LINK: https://github.com/Abducoffee/s11
+  DT_PATH: device/itel/S11
   TARGET: recoveryimage
   OUTPUT: recovery.img
 
